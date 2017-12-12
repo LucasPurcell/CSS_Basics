@@ -1,0 +1,11 @@
+.jumbotron {
+  text-shadow: 4px 2px 4px grey;
+  font-size: 64px;
+  font-style: italic;
+  font-family: serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  }
