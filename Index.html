@@ -13,9 +13,42 @@
 
 <body>
 
+  <!-- Adding a Navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Adding a Navbar Logo -->
+          <div class="navbar-header">
+            <a href="Index.html" class="navbar-brand"> Woodchips </a>
+          </div>
+          <!-- Adding a Navbar navigation list-->
+          <div>
+            <ul class="nav navbar-nav">
+                <li class="active"> <a href="Index.html"> Home </a> </li>
+                <li> <a href="More.html"> More </a> </li>
+                <li> <a href="#"> Contact </a> </li>
+              <!-- drop down menu -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </li>
+            </ul>
+<!-- right Align -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
   <div class="jumbotron">
     CSS BASICS HOMEPAGE
   </div>
+
 
   <div class="container-fluid">
       <h1 align="center">Welcome to CSS Basics</h1>
